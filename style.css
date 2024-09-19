@@ -156,6 +156,13 @@
   top: 22%;
 }
 
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
 .features__h5 {
   text-align: center;
   font-weight: 700;
@@ -166,9 +173,64 @@
 .features__h2 {
   width: 100%;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 0.025em;
   text-align: center;
+}
+
+.features__para {
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  max-width: 36rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.265;
+  color: rgb(124 139 161);
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service {
+  display: flex;
+  width: calc(100%/3);
+  margin: 2rem 0;
+}
+
+.service__descrip {
+  max-width: 10rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.service__para {
+  font-weight: 500;
+  font-size: .8rem;
+  line-height: 2.125;
+  margin-top: 1rem;
+  color: rgb(124 139 161);
+}
+
+.fa-shield-cat ,
+.fa-headset ,
+.fa-sliders ,
+.fa-arrows-up-down ,
+.fa-bolt ,
+.fa-heart {
+  display: flex;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  text-align: center;
+  scale: 150%;
+  color: rgb(100 21 255);
+  border-color: rgb(188, 204, 230);
 }
 
 @media (max-width: 768px) {
